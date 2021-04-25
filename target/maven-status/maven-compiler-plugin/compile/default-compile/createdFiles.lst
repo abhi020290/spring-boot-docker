@@ -1,0 +1,5 @@
+com\springbootopenapi\springbootopenapi\resource\PaymentResource.class
+com\springbootopenapi\springbootopenapi\repository\PaymentRepository.class
+com\springbootopenapi\springbootopenapi\SpringBootOpenapiApplication.class
+com\springbootopenapi\springbootopenapi\entity\Payment.class
+com\springbootopenapi\springbootopenapi\resource\PaymentResource$1.class

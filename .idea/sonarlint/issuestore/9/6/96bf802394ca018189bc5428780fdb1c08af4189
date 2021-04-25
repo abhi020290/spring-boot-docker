@@ -1,0 +1,25 @@
+
+[
+java:S4684M"@Replace this persistent entity with a simple POJO or DTO object.(Îïóıÿÿÿÿ
+0
+java:S3751b"Make this method "public".(Œ¸êœ
+V
+java:S4684b"@Replace this persistent entity with a simple POJO or DTO object.(Œ¸êœ
+`	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(¡˜„³ıÿÿÿÿ
+5
+java:S3751M"Make this method "public".(Îïóıÿÿÿÿ
+s
+java:S4144b"]Update this method so that its implementation is not identical to "createPayment" on line 77.(Œ¸êœ
+[	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(—ş…İ
+5
+java:S37518"Make this method "public".(¡˜„³ıÿÿÿÿ
+a
+java:S1128"LRemove this unused import 'io.swagger.v3.oas.annotations.OpenAPIDefinition'.( £µ1
+C
+java:S1604)"(Make this anonymous inner class a lambda(µ¹•Ûùÿÿÿÿ
+g
+java:S1128"QRemove this unused import 'io.swagger.v3.oas.annotations.responses.ApiResponses'.(ıúáØ
+0
+java:S3751&"Make this method "public".(—ş…İ
+5
+java:S3751o"Make this method "public".(¯×õ¨ıÿÿÿÿ
