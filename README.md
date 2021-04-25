@@ -26,4 +26,35 @@ Docker commands
     docker exec -it containerid sh
     docker login
     docker push test/dockerimage:0.0.1
+
+Use below plugins for Maven plugins for docker image
+
+          <plugins>
+                <plugin>
+                    <groupId>com.spotify</groupId>
+                    <artifactId>dockerfile-maven-plugin</artifactId>
+                    <version>1.4.0</version>
+                    <configuration>
+                        <repository>abhi020290/${project.artifactId}</repository>
+                        <tag>${project.version}</tag>
+                        <buildArgs>
+                            <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                        </buildArgs>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>default</id>
+                            <phase>install</phase>
+                            <goals>
+                                <goal>build</goal>
+                                <goal>push</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+         <plugins>
+         <finalName>bizdata-batch-processor</finalName>
+
+
+
     
